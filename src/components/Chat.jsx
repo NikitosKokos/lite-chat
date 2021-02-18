@@ -1,6 +1,5 @@
 import React from 'react';
 import socket from '../socket';
-import Exit from '../assets/img/exit.svg';
 
 const Chat = ({users, messages, userName, roomId, onAddMessage, password,onLeave}) => {
     const [messageValue, setMessageValue] = React.useState('');
